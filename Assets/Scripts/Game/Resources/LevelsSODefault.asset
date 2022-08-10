@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7815172ec64b84b429d21fe35a26a3e0, type: 3}
+  m_Name: LevelsSODefault
+  m_EditorClassIdentifier: 
+  m_Levels:
+  - m_LevelID: 0
+    m_MaxAICount: 5
+    m_AISpawnInterval: 1
+    m_AISpawnArgs:
+      AgentDestinationRange: 5
+      AgentFinishDistance: 1
+      AgentNewDesRandomMinTime: 0.25
+      AgentNewDesRandomMaxTime: 2
+      AgentFireRate: 1
+      AgentSpeed: 0.8
+  - m_LevelID: 1
+    m_MaxAICount: 7
+    m_AISpawnInterval: 0.85
+    m_AISpawnArgs:
+      AgentDestinationRange: 5
+      AgentFinishDistance: 1
+      AgentNewDesRandomMinTime: 0.25
+      AgentNewDesRandomMaxTime: 2
+      AgentFireRate: 0.7
+      AgentSpeed: 1
+  - m_LevelID: 2
+    m_MaxAICount: 15
+    m_AISpawnInterval: 0.65
+    m_AISpawnArgs:
+      AgentDestinationRange: 5
+      AgentFinishDistance: 1
+      AgentNewDesRandomMinTime: 0.25
+      AgentNewDesRandomMaxTime: 2
+      AgentFireRate: 0.5
+      AgentSpeed: 1.25
